@@ -1,0 +1,8 @@
+(library
+ (name first_lib)
+ (public_name proj.src)
+ (libraries
+  unix
+  str
+ )
+ (synopsis "This is your first library"))
