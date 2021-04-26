@@ -4,7 +4,7 @@
 
 let test_suites : unit Alcotest.test list =
   [
-    ("Sub2.A", Test_sub2.A.tests);
+    ("Src.A", Test_src.A.tests);
   ]
 
 let () = Alcotest.run "proj" test_suites
